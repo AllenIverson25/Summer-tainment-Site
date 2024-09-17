@@ -21,56 +21,97 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-front">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                  <img src="imgs/eagle_lake.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                  
-                </a>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                       
-                      </li>
-                    </ul>
-                  </div>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#Address">Address</a>
+                  <a class="nav-link" href="#Pictures">Pictures</a>
+                 
                 </div>
-              </nav>
+              </div>
+            </div>
+          </nav>
         </header>
         <main>
-          <div class="container-fluid">
-            <img class="sunset img-fluid" src="imgs/sunset pics.jpg">
-            <h1 class="fire" Eagle Lake ></h1>
+          <div class="container-fluid m-0 p-0">
+            <div class="row">
+              <div class="col-12">
+              <img class="sunset img-fluid small-img m-0 p-0" src="imgs/sunset pics.jpg">
+              <div class="position-absolute top-50 start-50 translate-middle">
+              <h1 class="fire" Eagle Lake ></h1>
+            </div>
+          </div>
+           
+          </div>
           </div>
           <div class="container-fluid">
           <div class="row">
             <div class="col-6">
               <center>
                 
-<p class="el">
+<p id="Address" class="el">
   Adress
 </p>
 <ul>
   <li>Located in Pensilvaina</li>
   <li>15 A M Hughes Blvd, Gouldsboro, PA 18424</li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Phone: (570) 842-4541</li>
+ 
 </ul>
 </center>
+<iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5041.8515469620215!2d-75.50078148261764!3d41.28921842574143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4e8669dcf46a5%3A0x6cb5561baf8269ae!2sEagle%20Lake%20Community%20Association!5e0!3m2!1sen!2sus!4v1726580744381!5m2!1sen!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-6">
               <img class="img-fluid" src="imgs/main gate.webp">
 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div  id="carouselExampleCaptions " class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img id="Pictures" src="/imgs/beach_pic_69.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/imgs/pool pic.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </main>
