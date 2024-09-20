@@ -18,15 +18,15 @@ navbar {
     background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
 }
 
-.el {
-    font-size: 2vw;
-}
 
 body {
     background-image: url(/imgs/sand.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    font-family: "orbital", sans-serif;
+font-weight: 400;
+font-style: normal;
 
 }
 
@@ -64,5 +64,10 @@ max-height: 50%;
 .bright{
     border-radius: 40px;
 }
-    
-     
+   .free{
+    font-size: 2vw;
+   }
+   .white{
+    background-color: white;
+    font
+   }
