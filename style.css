@@ -20,7 +20,7 @@ navbar {
 
 
 body {
-    background-image: url(/imgs/sand.jpg);
+    background-image: url(imgs/sand.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
